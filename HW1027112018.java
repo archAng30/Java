@@ -13,7 +13,7 @@ public class HW1027112018
         System.out.print("Enter an integer: ");
         int iSecond = keyboard.nextInt();
         
-        System.out.println("Enter an integer: 5");
+        System.out.println("Enter an integer: ");
         int iThird = keyboard.nextInt();
         
         if((iFirst<iSecond)&&(iSecond<iThird))
