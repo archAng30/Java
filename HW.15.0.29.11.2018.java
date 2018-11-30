@@ -1,7 +1,7 @@
-package javablank;
+package HW15029112018;
 import java.util.Scanner;
 
-public class JavaBlank 
+public class HW15029112018 
 {
     public static void main(String[] args) 
     {
