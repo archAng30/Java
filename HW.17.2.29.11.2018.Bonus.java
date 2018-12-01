@@ -1,7 +1,7 @@
-package javablank;
+package Bonus;
 import java.util.Scanner;
 
-public class JavaBlank 
+public class Bonus 
 {
     public static void main(String[] args) 
     {
