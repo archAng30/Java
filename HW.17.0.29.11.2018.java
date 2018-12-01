@@ -7,7 +7,9 @@ public class HW17029112018
     {
         Scanner kb = new Scanner(System.in);
         
-        int input = 0;
+        int input = 0,
+            i = 0,
+            fl = 0;
         
         do
         {
@@ -15,22 +17,16 @@ public class HW17029112018
             input = kb.nextInt();
         } while (input <= 1);
         
-        int i = 0,
-            flag = 0;
-        
-        for(i = 2; i <= input; i++)
+        for(i = 2; i < input; i++)
         {
-            if((input % i) == 0)
+            if(input % i == 0)
             {
-                flag = 0;
-            }
-            else
-            {
-                flag = 1;
+                fl = 1;
+                break;
             }
         }
         
-        if(flag == 0)
+        if(fl  == 0)
         {
             System.out.println(input + " is prime.");
         }
